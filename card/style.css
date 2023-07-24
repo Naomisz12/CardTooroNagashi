@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.Card {
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #202020;
+}
+
+.imagem {
+      display: flex;
+      justify-content: center;
+}
+
+.japan {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.text-main {
+    text-align: center;
+    color: #fa7f72; 
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.desc {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffffab;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn {
+    padding: 10px 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: #d4836cbe;
+    color: #fff;
+    cursor: pointer;        
+}
+
+.btn:hover{
+    transition: 1s;
+    background-color: #d4836cbe;
+    color: #fff;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
